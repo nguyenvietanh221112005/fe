@@ -78,7 +78,7 @@ interface FootballField {
 }
 
 class PitchService {
-  private baseURL = 'https://backend-4-giy5.onrender.com/api';
+  private baseURL = 'https://backend-7-2wp6.onrender.com/api';
 
   async getAllPitches(): Promise<FootballField[]> {
     try {
