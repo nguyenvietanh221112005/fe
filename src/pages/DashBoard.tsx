@@ -83,7 +83,7 @@ const Dashboard: React.FC = () => {
   const fetchDashboardData = async () => {
     try {
       setLoading(true);
-      const response = await fetch('https://backend-4-giy5.onrender.com/api/owner/dashboard', {
+      const response = await fetch('https://backend-7-2wp6.onrender.com/api/owner/dashboard', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
