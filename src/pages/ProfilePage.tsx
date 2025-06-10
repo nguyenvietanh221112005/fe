@@ -98,7 +98,7 @@ const ProfilePage = () => {
         return;
       }
 
-      const response = await fetch(`https://backend-4-giy5.onrender.com/api/auth/${userId}`, {
+      const response = await fetch(`https://backend-7-2wp6.onrender.com/api/auth/${userId}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json'
@@ -183,7 +183,7 @@ const ProfilePage = () => {
         gender: formData.gender
       };
 
-      const response = await fetch(`https://backend-4-giy5.onrender.com/api/auth/${userId}`, {
+      const response = await fetch(`https://backend-7-2wp6.onrender.com/api/auth/${userId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -242,7 +242,7 @@ const ProfilePage = () => {
         gender: 'male'
       };
 
-      const response = await fetch(`https://backend-4-giy5.onrender.com/api/auth/${userId}`, {
+      const response = await fetch(`https://backend-7-2wp6.onrender.com/api/auth/${userId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
