@@ -12,7 +12,7 @@ const AdminLogin: React.FC = () => {
   const [form] = Form.useForm();
   const onFinish = async (values: any) => {
     try {
-      const response = await fetch("https://backend-4-giy5.onrender.com/api/auth/login/owner", {
+      const response = await fetch("https://backend-7-2wp6.onrender.com/api/auth/login/owner", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
