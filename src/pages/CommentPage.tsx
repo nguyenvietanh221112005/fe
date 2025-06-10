@@ -27,7 +27,7 @@ const CommentPage: React.FC = () => {
   const navigate = useNavigate();
 
   // API base URL - thay đổi theo server của bạn
-  const API_BASE_URL = 'https://backend-4-giy5.onrender.com/api';
+  const API_BASE_URL = 'https://backend-7-2wp6.onrender.com/api';
 
   // Lấy user_id từ localStorage - SỬA LẠI
   const getUserId = () => {
