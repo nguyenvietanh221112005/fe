@@ -11,8 +11,8 @@ const { Content } = Layout;
 type PaymentStatus = 'completed' | 'pending' ;
 
 // API endpoints
-const API_BASE_URL = 'https://backend-4-giy5.onrender.com/api'; // Thay bằng URL thực tế của bạn
-const BOOKINGS_API = `https://backend-4-giy5.onrender.com/api/bookings/user/bookings`;
+const API_BASE_URL = 'https://backend-7-2wp6.onrender.com/api'; // Thay bằng URL thực tế của bạn
+const BOOKINGS_API = `https://backend-7-2wp6.onrender.com/api/bookings/user/bookings`;
 
 // Format tiền tệ VND
 const formatCurrency = (amount: number | null) => {
