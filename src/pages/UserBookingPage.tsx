@@ -106,7 +106,7 @@ const UserBookingPage: React.FC = () => {
   const userId = getUserId();
 
   // API Base URL
-  const API_BASE = 'https://backend-4-giy5.onrender.com/api';
+  const API_BASE = 'https://backend-7-2wp6.onrender.com/api';
 
   // Lấy danh sách sân
   const fetchPitches = async () => {
