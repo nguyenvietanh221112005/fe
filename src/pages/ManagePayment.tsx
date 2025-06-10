@@ -40,7 +40,7 @@ const ManagePayment: React.FC = () => {
         return;
       }
 
-      const response = await fetch('https://backend-4-giy5.onrender.com/api/bookings/owner/bookings', {
+      const response = await fetch('https://backend-7-2wp6.onrender.com/api/bookings/owner/bookings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -93,7 +93,7 @@ const ManagePayment: React.FC = () => {
       return;
     }
 
-    const response = await fetch(`https://backend-4-giy5.onrender.com/api/bookings/bookings/${bookingId}/status`, {
+    const response = await fetch(`https://backend-7-2wp6.onrender.com/api/bookings/bookings/${bookingId}/status`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
@@ -131,7 +131,7 @@ const ManagePayment: React.FC = () => {
       }
 
       // 1. Cập nhật trạng thái thanh toán
-      const paymentResponse = await fetch(`https://backend-4-giy5.onrender.com/api/bookings/bookings/${bookingId}/payment`, {
+      const paymentResponse = await fetch(`https://backend-7-2wp6.onrender.com/api/bookings/bookings/${bookingId}/payment`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -148,7 +148,7 @@ const ManagePayment: React.FC = () => {
       }
 
       // 2. Cập nhật trạng thái đặt sân thành confirmed
-      const statusResponse = await fetch(`https://backend-4-giy5.onrender.com/api/bookings/bookings/${bookingId}/status`, {
+      const statusResponse = await fetch(`https://backend-7-2wp6.onrender.com/api/bookings/bookings/${bookingId}/status`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
