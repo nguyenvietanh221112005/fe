@@ -96,7 +96,7 @@ interface ReviewStats {
   reviews: Review[];
 }
 
-const API_BASE_URL = 'https://backend-4-giy5.onrender.com/api';
+const API_BASE_URL = 'https://backend-7-2wp6.onrender.com/api';
 
 const apiService = {
   async getPitchDetail(pitchId: string): Promise<FootballField> {
